@@ -1,0 +1,1162 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+
+- intent: goodbye
+  examples: |
+    - cu
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_비립종_what_01
+  examples: |
+    - 비립종이 뭔가요?
+
+- intent: ask_비립종_what_02
+  examples: |
+    - 비립종 특징이 어떤가요?
+
+- intent: ask_비립종_what_03
+  examples: |
+    - 비립종의 특징은 무엇인가요?
+
+- intent: ask_비립종_what_04
+  examples: |
+    - 비립종이 생기면 어떤 증상이 있나요?
+
+- intent: ask_비립종_what_05
+  examples: |
+    - 비립종이 피부에 어떻게 보이나요?
+
+- intent: ask_비립종_what_06
+  examples: |
+    - 비립종이 작고 하얀 점인가요?
+
+- intent: ask_비립종_what_07
+  examples: |
+    - 비립종은 어디에 잘 생기나요?
+
+- intent: ask_비립종_what_08
+  examples: |
+    - 비립종이랑 비슷한 질환이 있나요?
+
+- intent: ask_비립종_what_09
+  examples: |
+    - 비립종은 같은 부위에 반복해서 생기나요?
+
+- intent: ask_비립종_why_01
+  examples: |
+    - 비립종은 왜 생기나요?
+
+- intent: ask_비립종_why_02
+  examples: |
+    - 비립종이 유전과 관련 있나요?
+
+- intent: ask_비립종_why_03
+  examples: |
+    - 비립종이 스트레스로 생기기도 하나요?
+
+- intent: ask_비립종_why_04
+  examples: |
+    - 비립종이 잘 생기는 이유가 있나요?
+
+- intent: ask_비립종_why_05
+  examples: |
+    - 비립종이 생기는 환경적 요인은?
+
+- intent: ask_비립종_why_06
+  examples: |
+    - 비립종이 화장품 때문인가요?
+
+- intent: ask_비립종_why_07
+  examples: |
+    - 각질 제거를 잘못하면 비립종이 생기나요?
+
+- intent: ask_비립종_why_08
+  examples: |
+    - 건조한 피부가 비립종을 유발하나요?
+
+- intent: ask_비립종_why_09
+  examples: |
+    - 노화가 비립종 발생에 영향을 주나요?
+
+- intent: ask_비립종_why_10
+  examples: |
+    - 눈 화장을 지우지 않으면 비립종이 생기나요?
+
+- intent: ask_비립종_why_11
+  examples: |
+    - 비립종 생기는 데 생활습관이 영향 있나요?
+
+- intent: ask_비립종_how_01
+  examples: |
+    - 비립종 없애는 방법이 궁금해요
+
+- intent: ask_비립종_how_02
+  examples: |
+    - 비립종 치료 후 주의할 점은
+
+- intent: ask_비립종_how_03
+  examples: |
+    - 비립종 관리법이 있나요?
+
+- intent: ask_비립종_how_04
+  examples: |
+    - 비립종을 예방하려면 어떻게 해야 하나요?
+
+- intent: ask_비립종_how_05
+  examples: |
+    - 비립종을 스스로 짜도 되나요?
+
+- intent: ask_비립종_how_06
+  examples: |
+    - 비립종이 재발하지 않으려면?
+
+- intent: ask_비립종_how_07
+  examples: |
+    - 비립종 증상은 어떻게 진행되나요?
+
+- intent: ask_비립종_how_08
+  examples: |
+    - 비립종는 검사로 알 수 있나요?
+
+- intent: ask_비립종_how_09
+  examples: |
+    - 비립종는 눈으로 봐도 알 수 있나요?
+
+- intent: ask_비립종_how_10
+  examples: |
+    - 비립종는 어떻게 진단하나요?
+
+- intent: ask_비립종_how_11
+  examples: |
+    - 비립종를 다른 질환과 구분하는 법이 있나요?
+
+- intent: ask_비립종_cure_01
+  examples: |
+    - 비립종 제거 후 관리법은 어떻게 되나요?
+
+- intent: ask_비립종_cure_02
+  examples: |
+    - 비립종 치료 후 주의해야 할 점이 있나요?
+    
+- intent: ask_비립종_cure_03
+  examples: |
+    - 비립종 제거 후 재발할 수 있나요?
+
+- intent: ask_비립종_cure_04
+  examples: |
+    - 비립종 재발이 잦은데, 효과적으로 관리할 방법이 있을까요?
+
+- intent: ask_비립종_cure_05
+  examples: |
+    - 비립종 예방을 위해 꼭 실천해야 하는 생활습관이 있을까요?
+
+- intent: ask_비립종_cure_06
+  examples: |
+    - 비립종 예방에 좋은 생활습관이 있나요?
+
+- intent: ask_비립종_cure_07
+  examples: |
+    - 비립종 치료 후 음주나 흡연이 가능할까요?
+
+- intent: ask_비립종_cure_08
+  examples: |
+    - 비립종 재발을 막으려면 어떻게 해야 하나요?
+
+- intent: ask_비립종_cure_09
+  examples: |
+    - 비립종 제거 후 각질 관리법 알려주세요.
+    
+- intent: ask_비립종_cure_10
+  examples: |
+    - 비립종 치료 후 어떤 연고를 바르면 좋나요?
+
+- intent: ask_비립종_cure_11
+  examples: |
+    - 비립종 제거 후 바로 메이크업해도 되나요?
+
+- intent: ask_비립종_cure_12
+  examples: |
+    - 비립종 치료 후 특별히 먹지 말아야 할 음식이 있나요?
+
+- intent: ask_비립종_cure_13
+  examples: |
+    - 비립종 예방에 도움이 되는 화장품 성분이 있나요?
+
+- intent: ask_비립종_cure_14
+  examples: |
+    - 비립종 제거 후 얼굴이 붓거나 멍이 들 수도 있나요?
+
+- intent: ask_비립종_cure_15
+  examples: |
+    - 비립종 치료 후 피부가 당기거나 건조해질 수 있나요?
+
+- intent: ask_비립종_cure_16
+  examples: |
+    - 비립종 치료 후 햇볕을 쬐어도 괜찮나요?
+
+- intent: ask_비립종_cure_17
+  examples: |
+    - 비립종 제거 후 며칠간 세수를 피해야 하나요?
+
+- intent: ask_비립종_cure_18
+  examples: |
+    - 비립종 치료 후 피부가 예민해졌을 때 대처법은?
+
+- intent: ask_사마귀_what_01
+  examples: |
+    - 사마귀가 뭔가요?
+
+- intent: ask_사마귀_what_02
+  examples: |
+    - 사마귀와 점의 차이는 뭔가요?
+
+- intent: ask_사마귀_what_03
+  examples: |
+    - 사마귀가 나타나는 증상은?
+
+- intent: ask_사마귀_what_04
+  examples: |
+    - 사마귀는 피부에 어떻게 보이나요?
+
+- intent: ask_사마귀_what_05
+  examples: |
+    - 사마귀는 누구에게 잘 생기나요?
+
+- intent: ask_사마귀_what_06
+  examples: |
+    - 사마귀는 다른 피부병과 어떻게 다른가요?
+
+- intent: ask_사마귀_why_01
+  examples: |
+    - 사마귀는 왜 생기나요?
+
+- intent: ask_사마귀_why_02
+  examples: |
+    - 사마귀가 전염되나요?
+
+- intent: ask_사마귀_why_03
+  examples: |
+    - 면역력이 약하면 사마귀가 더 잘 생기나요?
+
+- intent: ask_사마귀_why_04
+  examples: |
+    - 사마귀가 생활습관과 연관 있나요?
+
+- intent: ask_사마귀_why_05
+  examples: |
+    - 바이러스가 사마귀의 원인인가요?
+
+- intent: ask_사마귀_why_06
+  examples: |
+    - 사마귀가 환경 요인과 관련이 있나요?
+
+- intent: ask_사마귀_how_01
+  examples: |
+    - 사마귀는 어떻게 치료하나요?
+
+- intent: ask_사마귀_how_02
+  examples: |
+    - 사마귀 치료법 알려주세요.
+
+- intent: ask_사마귀_how_03
+  examples: |
+    - 사마귀 관리법을 알려 주세요.
+
+- intent: ask_사마귀_how_04
+  examples: |
+    - 사마귀 치료 후 주의할 점은?
+
+- intent: ask_사마귀_how_05
+  examples: |
+    - 사마귀를 짜도 되나요?
+
+- intent: ask_사마귀_how_06
+  examples: |
+    - 사마귀를 악화시키지 않으려면 어떻게 해야 하나요?
+
+- intent: ask_사마귀_cure_01
+  examples: |
+    - 사마귀 제거 후 흉터가 남을 수 있나요?
+
+- intent: ask_사마귀_cure_02
+  examples: |
+    - 사마귀 치료 후 재발을 막으려면 어떻게 해야 하나요?
+
+- intent: ask_사마귀_cure_03
+  examples: |
+    - 사마귀 제거 후 바로 일상생활이 가능한가요?
+
+- intent: ask_사마귀_cure_04
+  examples: |
+    - 사마귀 치료 비용은 보통 어느 정도인가요?
+
+- intent: ask_사마귀_cure_05
+  examples: |
+    - 사마귀는 집에서 치료할 수 있나요?
+
+- intent: ask_사마귀_cure_06
+  examples: |
+    - 사마귀 치료 후 목욕이나 수영해도 되나요?
+
+- intent: ask_사마귀_cure_07
+  examples: |
+    - 사마귀 치료 후 운동해도 괜찮은가요?
+
+- intent: ask_사마귀_cure_08
+  examples: |
+    - 사마귀 제거 후 상처가 덧나면 어떻게 해야 하나요?
+
+- intent: ask_사마귀_cure_09
+  examples: |
+    - 사마귀가 다시 생길 수 있나요?
+
+- intent: ask_사마귀_cure_10
+  examples: |
+    - 사마귀 예방에 좋은 생활습관이 있나요?
+
+- intent: ask_사마귀_cure_11
+  examples: |
+    - 사마귀 치료 후 어떤 연고를 바르면 좋나요?
+
+- intent: ask_사마귀_cure_12
+  examples: |
+    - 사마귀가 여러 개일 때 한 번에 모두 치료할 수 있나요?
+
+- intent: ask_사마귀_cure_13
+  examples: |
+    - 사마귀 제거 후 바로 화장해도 되나요?
+
+- intent: ask_사마귀_cure_14
+  examples: |
+    - 사마귀 치료 후 특별히 피해야 할 음식이 있나요?
+
+- intent: ask_사마귀_cure_15
+  examples: |
+    - 사마귀가 자주 재발하는데, 효과적으로 관리하는 방법은?
+
+- intent: ask_사마귀_cure_16
+  examples: |
+    - 사마귀 치료 중에 약을 복용해야 하나요?
+
+- intent: ask_사마귀_cure_17
+  examples: |
+    - 사마귀 치료 후 피부가 예민해졌을 때 대처법은?
+
+- intent: ask_악성흑색종_what_01
+  examples: |
+    - 악성 흑색종이 뭔가요?
+- intent: ask_악성흑색종_what_02
+  examples: |
+    - 흑색종 증상이 궁금해요.
+- intent: ask_악성흑색종_what_03
+  examples: |
+    - 흑색종은 점이랑 어떻게 달라요?
+
+- intent: ask_악성흑색종_what_04
+  examples: |
+    - 악성 흑색종이 점처럼 보이기도 하나요?
+
+- intent: ask_악성흑색종_what_05
+  examples: |
+    - 흑색종과 일반 점의 차이점은?
+
+- intent: ask_악성흑색종_what_06
+  examples: |
+    - 흑색종이 생기면 통증이 있나요?
+
+- intent: ask_악성흑색종_what_07
+  examples: |
+    - 악성 흑색종은 왜 위험한가요?
+
+- intent: ask_악성흑색종_what_08
+  examples: |
+    - 악성 흑색종의 대표적인 증상은 뭐예요?
+
+- intent: ask_악성흑색종_what_09
+  examples: |
+    - 흑색종과 일반 점의 차이점은?
+
+- intent: ask_악성흑색종_what_10
+  examples: |
+    - 흑색종이 생기면 통증이 있나요?
+
+- intent: ask_악성흑색종_what_11
+  examples: |
+    - 악성 흑색종은 왜 위험한가요?
+
+- intent: ask_악성흑색종_what_12
+  examples: |
+    - 악성 흑색종이란 어떤 병인가요?
+
+- intent: ask_악성흑색종_what_13
+  examples: |
+    - 악성 흑색종은 피부에 어떻게 보이나요?
+
+- intent: ask_악성흑색종_what_14
+  examples: |
+    - 흑색종의 대표적인 특징은 뭔가요?
+
+- intent: ask_악성흑색종_what_15
+  examples: |
+    - 악성 흑색종의 모양이 궁금해요.
+
+- intent: ask_악성흑색종_what_16
+  examples: |
+    - 흑색종은 색깔이 어떤가요?
+
+- intent: ask_악성흑색종_what_17
+  examples: |
+    - 악성 흑색종과 평범한 점은 어떻게 구별하나요?
+
+- intent: ask_악성흑색종_what_18
+  examples: |
+    - 악성 흑색종이 생기면 피부에 변화가 있나요?
+
+- intent: ask_악성흑색종_how_01
+  examples: |
+    - 흑색종은 어떤 방법으로 발견할 수 있나요?
+
+- intent: ask_악성흑색종_how_02
+  examples: |
+    - 흑색종 의심 부위를 어떻게 검사하나요?
+
+- intent: ask_악성흑색종_how_03
+  examples: |
+    - 악성 흑색종을 빠르게 발견하려면 어떻게 해야 하나요?
+
+- intent: ask_악성흑색종_how_04
+  examples: |
+    - 흑색종 검사는 병원에서 어떻게 진행되나요?
+
+- intent: ask_악성흑색종_how_05
+  examples: |
+    - 악성 흑색종 진단을 위해 어떤 검사가 필요하나요?
+
+- intent: ask_악성흑색종_how_06
+  examples: |
+    - 악성 흑색종 자가진단법이 있나요?
+
+- intent: ask_악성흑색종_how_07
+  examples: |
+    - 악성 흑색종을 발견하면 바로 치료를 시작해야 하나요?
+
+- intent: ask_악성흑색종_how_08
+  examples: |
+    - 흑색종과 멜라닌세포종의 차이는 무엇인가요?
+
+- intent: ask_악성흑색종_how_09
+  examples: |
+    - 흑색종 검진은 주기적으로 받아야 하나요?
+
+- intent: ask_악성흑색종_how_10
+  examples: |
+    - 악성 흑색종 초기 증상은 어떻게 확인하나요?
+
+- intent: ask_악성흑색종_how_11
+  examples: |
+    - 흑색종은 피부 표면에만 생기나요?
+
+- intent: ask_악성흑색종_how_12
+  examples: |
+    - 악성 흑색종을 진단하는 데 필요한 준비물이 있나요?
+
+- intent: ask_악성흑색종_how_13
+  examples: |
+    - 흑색종 진단 후 추가로 어떤 검사가 필요한가요?
+
+- intent: ask_악성흑색종_how_14
+  examples: |
+    - 악성 흑색종 진단은 조직검사가 필수인가요?
+
+- intent: ask_악성흑색종_how_15
+  examples: |
+    - 악성 흑색종의 진행 속도는 어떤가요?
+
+- intent: ask_악성흑색종_how_16
+  examples: |
+    - 악성 흑색종과 비슷한 다른 질환과의 차이점은?
+
+- intent: ask_악성흑색종_how_17
+  examples: |
+    - 흑색종은 사진으로도 진단이 가능한가요?
+
+- intent: ask_악성흑색종_cure_01
+  examples: |
+    - 흑색종 치료는 수술이 필수인가요?
+
+- intent: ask_악성흑색종_cure_02
+  examples: |
+    - 흑색종 치료를 받으면 완치가 가능한가요?
+
+- intent: ask_악성흑색종_cure_03
+  examples: |
+    - 악성 흑색종의 치료 방법에는 무엇이 있나요?
+
+- intent: ask_악성흑색종_cure_04
+  examples: |
+    - 악성 흑색종 치료 중 주의해야 할 점은?
+
+- intent: ask_악성흑색종_cure_05
+  examples: |
+    - 악성 흑색종 치료는 입원이 필요한가요?
+
+- intent: ask_악성흑색종_cure_06
+  examples: |
+    - 흑색종 치료 비용은 어느 정도인가요?
+
+- intent: ask_악성흑색종_cure_07
+  examples: |
+    - 악성 흑색종 치료 후 일상생활은 어떻게 하나요?
+
+- intent: ask_악성흑색종_cure_08
+  examples: |
+    - 흑색종 치료 후 흉터가 남나요?
+
+- intent: ask_악성흑색종_cure_09
+  examples: |
+    - 악성 흑색종 치료 후 운동해도 되나요?
+
+- intent: ask_악성흑색종_cure_10
+  examples: |
+    - 흑색종 치료 중에는 햇볕을 피해야 하나요?
+
+- intent: ask_악성흑색종_cure_11
+  examples: |
+    - 악성 흑색종 치료 후 음식 조심해야 하나요?
+
+- intent: ask_악성흑색종_cure_12
+  examples: |
+    - 악성 흑색종 치료를 받은 후 피부 관리법은?
+
+- intent: ask_악성흑색종_cure_13
+  examples: |
+    - 흑색종 치료 후 재발률은 어느 정도인가요?
+
+- intent: ask_악성흑색종_cure_14
+  examples: |
+    - 악성 흑색종 예방을 위한 습관이 있나요?
+
+- intent: ask_악성흑색종_cure_15
+  examples: |
+    - 악성 흑색종 치료 후 정기검진이 필요한가요?
+
+- intent: ask_악성흑색종_cure_16
+  examples: |
+    - 악성 흑색종 치료 후 특별히 신경 쓸 점이 있나요?
+
+- intent: ask_악성흑색종_why_01
+  examples: |
+    - 악성 흑색종이 발생하는 원인은 무엇인가요?
+
+- intent: ask_악성흑색종_why_02
+  examples: |
+    - 흑색종의 주된 위험인자는 무엇인가요?
+
+- intent: ask_악성흑색종_why_03
+  examples: |
+    - 악성 흑색종이 잘 생기는 이유가 뭔가요?
+
+- intent: ask_악성흑색종_why_04
+  examples: |
+    - 악성 흑색종이 특정 피부타입에서 더 잘 생기나요?
+
+- intent: ask_악성흑색종_why_05
+  examples: |
+    - 악성 흑색종의 발병률이 높은 연령대가 있나요?
+
+- intent: ask_악성흑색종_why_06
+  examples: |
+    - 악성 흑색종은 왜 위험한가요?
+
+- intent: ask_악성흑색종_why_07
+  examples: |
+    - 악성 흑색종이 빠르게 진행되는 이유는?
+
+- intent: ask_악성흑색종_why_08
+  examples: |
+    - 흑색종이 색소침착 부위에서 잘 생기나요?
+
+- intent: ask_악성흑색종_why_09
+  examples: |
+    - 악성 흑색종은 선천적으로 생기기도 하나요?
+
+- intent: ask_악성흑색종_why_10
+  examples: |
+    - 악성 흑색종은 환경 오염과도 관계가 있나요?
+
+- intent: ask_악성흑색종_why_11
+  examples: |
+    - 악성 흑색종이 피부에 잘 보이지 않게 생기는 이유는?
+
+- intent: ask_악성흑색종_why_12
+  examples: |
+    - 악성 흑색종이 남녀 모두에게 발생하나요?
+
+- intent: ask_악성흑색종_why_13
+  examples: |
+    - 악성 흑색종이 과거 화상 부위에 잘 생기나요?
+
+- intent: ask_악성흑색종_why_14
+  examples: |
+    - 악성 흑색종이 면역력 저하와 관련 있나요?
+
+- intent: ask_악성흑색종_why_15
+  examples: |
+    - 악성 흑색종이 점이 많은 사람에게 잘 생기나요?
+
+- intent: ask_악성흑색종_why_16
+  examples: |
+    - 악성 흑색종이 반복적으로 자외선에 노출된 부위에 잘 생기나요?
+
+
+- intent: ask_편평세포암_what_01
+  examples: |
+    - 편평세포암이 뭔가요?
+
+- intent: ask_편평세포암_what_02
+  examples: |
+    - 편평세포암의 증상은 무엇인가요?
+
+- intent: ask_편평세포암_what_03
+  examples: |
+    - 편평세포암이 보통 어느 부위에 많이 생기나요?
+
+- intent: ask_편평세포암_what_04
+  examples: |
+    - 편평세포암은 피부에 어떻게 보이나요?
+
+- intent: ask_편평세포암_what_05
+  examples: |
+    - 편평세포암이란 무엇인지 설명해 주세요.
+
+- intent: ask_편평세포암_what_06
+  examples: |
+    - 편평세포암이 흔한 부위는?
+
+- intent: ask_편평세포암_what_07
+  examples: |
+    - 편평세포암은 피부에 어떻게 나타나요?
+
+- intent: ask_편평세포암_what_08
+  examples: |
+    - 편평세포암 증상 자세히 알려주세요.
+
+- intent: ask_편평세포암_what_09
+  examples: |
+    - 편평세포암에 걸리면 어떻게 되나요?
+
+- intent: ask_편평세포암_what_10
+  examples: |
+    - 편평세포암이 생겼을 때 피부 변화가 있나요?
+
+- intent: ask_편평세포암_what_11
+  examples: |
+    - 편평세포암은 누구에게 잘 생기나요?
+
+- intent: ask_편평세포암_what_12
+  examples: |
+    - 편평세포암과 기저세포암 차이가 뭔가요?
+
+- intent: ask_편평세포암_what_13
+  examples: |
+    - 편평세포암이 자주 생기는 부위가 있나요?
+
+- intent: ask_편평세포암_what_14
+  examples: |
+    - 편평세포암은 피부에 어떻게 보이나요?
+
+- intent: ask_편평세포암_what_15
+  examples: |
+    - 편평세포암이란 무엇인지 설명해 주세요.
+
+- intent: ask_편평세포암_what_16
+  examples: |
+    - 편평세포암의 대표적인 증상은 뭐예요?
+
+- intent: ask_편평세포암_what_17
+  examples: |
+    - 편평세포암은 누구에게 잘 생기나요?
+
+- intent: ask_편평세포암_what_18
+  examples: |
+    - 편평세포암 초기 증상은 무엇인가요?
+
+- intent: ask_편평세포암_what_19
+  examples: |
+    - 편평세포암은 통증이 있나요?
+
+- intent: ask_편평세포암_what_20
+  examples: |
+    - 편평세포암은 악성인가요?
+
+- intent: ask_편평세포암_what_21
+  examples: |
+    - 편평세포암의 외관상 모습이 궁금해요.
+
+- intent: ask_편평세포암_what_22
+  examples: |
+    - 편평세포암과 다른 피부암의 차이는?
+
+- intent: ask_편평세포암_what_23
+  examples: |
+    - 편평세포암은 진행이 빠른가요?
+
+- intent: ask_편평세포암_what_24
+  examples: |
+    - 편평세포암이 점처럼 보일 수 있나요?
+
+- intent: ask_편평세포암_what_25
+  examples: |
+    - 편평세포암의 색깔이나 모양이 궁금해요.
+
+- intent: ask_편평세포암_what_26
+  examples: |
+    - 편평세포암은 일반 점과 어떻게 구분하나요?
+
+- intent: ask_편평세포암_why_01
+  examples: |
+    - 편평세포암은 왜 생기나요?
+
+- intent: ask_편평세포암_why_02
+  examples: |
+    - 자외선이 원인인가요?
+
+- intent: ask_편평세포암_why_03
+  examples: |
+    - 유전 때문일 수도 있나요?
+
+- intent: ask_편평세포암_why_04
+  examples: |
+    - 면역력이 약하면 더 잘 생기나요?
+
+- intent: ask_편평세포암_why_05
+  examples: |
+    - 편평세포암이 생기는 원인은요?
+
+- intent: ask_편평세포암_why_06
+  examples: |
+    - 상처에서 시작되는 건가요?
+
+- intent: ask_편평세포암_why_07
+  examples: |
+    - 점이 암으로 바뀌는 건가요?
+
+- intent: ask_편평세포암_why_08
+  examples: |
+    - 노화랑 관련이 있나요?
+
+- intent: ask_편평세포암_why_09
+  examples: |
+    - 자주 긁으면 암이 되나요?
+
+- intent: ask_편평세포암_why_10
+  examples: |
+    - 방사선 치료 후 생길 수도 있나요?
+
+- intent: ask_편평세포암_why_11
+  examples: |
+    - 화학물질에 노출되면 생기나요?
+
+- intent: ask_편평세포암_why_12
+  examples: |
+    - 흉터에서 생기는 경우도 있나요?
+
+- intent: ask_편평세포암_why_13
+  examples: |
+    - 만성 염증이 영향을 주나요?
+
+- intent: ask_편평세포암_why_14
+  examples: |
+    - 어떤 환경에서 잘 생기나요?
+
+- intent: ask_편평세포암_why_15
+  examples: |
+    - 바이러스와 관련 있나요?
+
+- intent: ask_편평세포암_why_16
+  examples: |
+    - 반복적으로 햇빛 보면 위험한가요?
+
+- intent: ask_편평세포암_how_01
+  examples: |
+    - 점점 커지나요?
+- intent: ask_편평세포암_how_02
+  examples: |
+    - 주변 피부로 번지나요?
+- intent: ask_편평세포암_how_03
+  examples: |
+    - 피가 나기도 하나요?
+- intent: ask_편평세포암_how_04
+  examples: |
+    - 진단은 어떻게 받나요?
+
+- intent: ask_편평세포암_how_05
+  examples: |
+    - 완치 후에도 재발하나요?
+
+- intent: ask_편평세포암_how_06
+  examples: |
+    - 증상 변화가 있나요?
+- intent: ask_편평세포암_how_07
+  examples: |
+    - 피가 나기도 하나요?
+- intent: ask_편평세포암_how_08
+  examples: |
+    - 통증이 생기면 늦은 건가요?
+- intent: ask_편평세포암_how_09
+  examples: |
+    - 진단은 어떻게 받나요?
+- intent: ask_편평세포암_how_10
+  examples: |
+    - 검사로 확인 가능한가요?
+- intent: ask_편평세포암_how_11
+  examples: |
+    - 전이 여부는 어떻게 알 수 있나요?
+- intent: ask_편평세포암_how_12
+  examples: |
+    - 딱지가 생기나요?
+- intent: ask_편평세포암_how_13
+  examples: |
+    - 빠르게 악화되기도 하나요?
+- intent: ask_편평세포암_how_14
+  examples: |
+    - 다시 생기기도 하나요?
+- intent: ask_편평세포암_how_15
+  examples: |
+    - 병기가 올라가면 어떤 증상이 있나요?
+- intent: ask_편평세포암_how_16
+  examples: |
+    - 완치 후에도 재발하나요?
+- intent: ask_편평세포암_how_17
+  examples: |
+    - 피부 겉으로만 나타나나요?
+
+- intent: ask_편평세포암_cure_01
+  examples: |
+    - 편평세포암은 어떻게 치료하나요?
+
+- intent: ask_편평세포암_cure_02
+  examples: |
+    - 약물로 치료되나요?
+
+- intent: ask_편평세포암_cure_03
+  examples: |
+    - 자연치유는 안 되나요?
+
+- intent: ask_편평세포암_cure_04
+  examples: |
+    - 완치가 가능한가요?
+
+- intent: ask_편평세포암_cure_06
+  examples: |
+    - 흉터는 남나요?
+- intent: ask_편평세포암_cure_07
+  examples: |
+    - 치료 기간은 얼마나 되나요?
+- intent: ask_편평세포암_cure_08
+  examples: |
+    - 통증은 어떻게 관리하나요?
+- intent: ask_편평세포암_cure_09
+  examples: |
+    - 약물로 치료되나요?
+- intent: ask_편평세포암_cure_10
+  examples: |
+    - 치료 후 관리가 필요한가요?
+- intent: ask_편평세포암_cure_11
+  examples: |
+    - 재발을 막으려면 어떻게 하나요?
+- intent: ask_편평세포암_cure_12
+  examples: |
+    - 피부 이식이 필요한가요?
+- intent: ask_편평세포암_cure_13
+  examples: |
+    - 어디에서 치료받아야 하나요?
+- intent: ask_편평세포암_cure_14
+  examples: |
+    - 자연치유는 안 되나요?
+- intent: ask_편평세포암_cure_15
+  examples: |
+    - 치료 중 일상생활 가능한가요?
+- intent: ask_편평세포암_cure_16
+  examples: |
+    - 비용은 많이 드나요?
+- intent: ask_편평세포암_cure_17
+  examples: |
+    - 보험 적용되나요?
+- intent: ask_편평세포암_cure_18
+  examples: |
+    - 어떤 시술을 많이 하나요?
+- intent: ask_편평세포암_cure_19
+  examples: |
+    - 레이저로 제거 가능한가요?
+- intent: ask_편평세포암_cure_20
+  examples: |
+    - 예방할 수 있는 방법은 없나요?
+
+- intent: ask_혈관종_what_01
+  examples: |
+    - 혈관종이 뭔가요?
+
+- intent: ask_혈관종_what_02
+  examples: |
+    - 피부에 붉게 부어오르기도 하나요?
+
+- intent: ask_혈관종_what_03
+  examples: |
+    - 혈관종은 종양이에요?
+
+- intent: ask_혈관종_what_04
+  examples: |
+    - 위험한 건가요?
+
+- intent: ask_혈관종_what_05
+  examples: |
+    - 그냥 점이랑 달라요?
+
+- intent: ask_혈관종_what_06
+  examples: |
+    - 암이랑은 다른가요?
+
+- intent: ask_혈관종_what_08
+  examples: |
+    - 암이랑은 다른가요?
+- intent: ask_혈관종_what_09
+  examples: |
+    - 신생아한테 자주 생기나요?
+- intent: ask_혈관종_what_10
+  examples: |
+    - 왜 빨간 점처럼 보여요?
+- intent: ask_혈관종_what_11
+  examples: |
+    - 시간 지나면 없어지나요?
+- intent: ask_혈관종_what_12
+  examples: |
+    - 어디에 잘 생기나요?
+- intent: ask_혈관종_what_13
+  examples: |
+    - 얼굴에도 생기나요?
+- intent: ask_혈관종_what_14
+  examples: |
+    - 피부에 붉게 부어오르기도 하나요?
+- intent: ask_혈관종_what_15
+  examples: |
+    - 혈관종은 누르면 색이 바뀌나요?
+- intent: ask_혈관종_what_16
+  examples: |
+    - 피부 밑에도 생기나요?
+- intent: ask_혈관종_what_17
+  examples: |
+    - 여러 개 생길 수도 있나요?
+- intent: ask_혈관종_what_18
+  examples: |
+    - 점점 커지나요?
+- intent: ask_혈관종_what_19
+  examples: |
+    - 무해한 건가요?
+- intent: ask_혈관종_what_20
+  examples: |
+    - 자연스럽게 사라지나요?
+
+
+- intent: ask_혈관종_why_01
+  examples: |
+    - 혈관종은 왜 생기나요?
+
+- intent: ask_혈관종_why_02
+  examples: |
+    - 유전적 원인이 있나요?
+
+- intent: ask_혈관종_why_03
+  examples: |
+    - 태어날 때부터 생기나요?
+
+- intent: ask_혈관종_why_04
+  examples: |
+    - 호르몬 때문인가요?
+
+- intent: ask_혈관종_how_01
+  examples: |
+    - 혈관종은 어떻게 진행되나요?
+
+- intent: ask_혈관종_how_02
+  examples: |
+    - 점점 커지나요?
+
+- intent: ask_혈관종_how_03
+  examples: |
+    - 작아지기도 하나요?
+
+- intent: ask_혈관종_how_04
+  examples: |
+    - 사라질 수 있나요?
+
+- intent: ask_혈관종_how_05
+  examples: |
+    - 피가 나면 위험한가요?
+- intent: ask_혈관종_how_06
+  examples: |
+    - 터질 수도 있나요?
+- intent: ask_혈관종_how_07
+  examples: |
+    - 커지면 꼭 치료해야 하나요?
+- intent: ask_혈관종_how_08
+  examples: |
+    - 색이 바뀌면 무슨 뜻이에요?
+- intent: ask_혈관종_how_09
+  examples: |
+    - 눌렀을 때 색이 변하나요?
+- intent: ask_혈관종_how_10
+  examples: |
+    - 통증이 생길 수 있나요?
+- intent: ask_혈관종_how_11
+  examples: |
+    - 피부 겉에만 생기나요?
+- intent: ask_혈관종_how_12
+  examples: |
+    - 장기 내부에도 생기나요?
+- intent: ask_혈관종_how_13
+  examples: |
+    - 얼굴이 붓는 것 같아요
+- intent: ask_혈관종_how_14
+  examples: |
+    - 성장하면서 모양이 바뀌나요?
+- intent: ask_혈관종_how_15
+  examples: |
+    - 사라졌다가 다시 생기나요?
+- intent: ask_혈관종_how_16
+  examples: |
+    - 울긋불긋해지는 건 정상인가요?
+- intent: ask_혈관종_how_17
+  examples: |
+    - 크기가 갑자기 변했어요
+- intent: ask_혈관종_how_18
+  examples: |
+    - 시간이 지나면 더 커지나요?
+- intent: ask_혈관종_how_19
+  examples: |
+    - 자연적으로 없어지나요?
+- intent: ask_혈관종_how_20
+  examples: |
+    - 겉으로는 안 보이기도 하나요?
+
+- intent: ask_혈관종_cure_01
+  examples: |
+    - 혈관종은 어떻게 치료하나요?
+
+- intent: ask_혈관종_cure_02
+  examples: |
+    - 치료 안 해도 되나요?
+
+- intent: ask_혈관종_cure_03
+  examples: |
+    - 치료 후 흉터가 남나요?
+
+- intent: ask_혈관종_cure_05
+  examples: |
+    - 레이저로 없앨 수 있나요?
+- intent: ask_혈관종_cure_06
+  examples: |
+    - 치료하면 흉터 남나요?
+- intent: ask_혈관종_cure_07
+  examples: |
+    - 자연적으로 사라지면 괜찮나요?
+- intent: ask_혈관종_cure_08
+  examples: |
+    - 치료 시기는 언제가 적절한가요?
+- intent: ask_혈관종_cure_09
+  examples: |
+    - 통증이 심하면 어떻게 해야 하나요?
+- intent: ask_혈관종_cure_10
+  examples: |
+    - 병원은 어디로 가야 하나요?
+- intent: ask_혈관종_cure_11
+  examples: |
+    - 치료 후 관리가 필요한가요?
+- intent: ask_혈관종_cure_12
+  examples: |
+    - 완치될 수 있나요?
+- intent: ask_혈관종_cure_13
+  examples: |
+    - 재발 위험이 있나요?
+- intent: ask_혈관종_cure_14
+  examples: |
+    - 성인도 치료 가능한가요?
+- intent: ask_혈관종_cure_15
+  examples: |
+    - 비용은 어느 정도인가요?
+- intent: ask_혈관종_cure_16
+  examples: |
+    - 치료가 아픈가요?
+- intent: ask_혈관종_cure_17
+  examples: |
+    - 몇 번 치료해야 하나요?
+- intent: ask_혈관종_cure_18
+  examples: |
+    - 보험이 적용되나요?
+- intent: ask_혈관종_cure_19
+  examples: |
+    - 수술 말고 다른 방법 없나요?
+- intent: ask_혈관종_cure_20
+  examples: |
+    - 치료 후 바로 일상생활 가능한가요?

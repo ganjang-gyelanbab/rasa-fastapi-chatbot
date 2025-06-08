@@ -1,0 +1,1442 @@
+version: "3.1"
+
+rules: 
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: ask_비립종_what_01 응답
+  steps:
+    - intent: ask_비립종_what_01
+    - action: utter_ask_비립종_what_01
+
+- rule: ask_비립종_what_02 응답
+  steps:
+    - intent: ask_비립종_what_02
+    - action: utter_ask_비립종_what_02
+
+- rule: ask_비립종_what_03 응답
+  steps:
+    - intent: ask_비립종_what_03
+    - action: utter_ask_비립종_what_03
+
+- rule: ask_비립종_what_04 응답
+  steps:
+    - intent: ask_비립종_what_04
+    - action: utter_ask_비립종_what_04
+
+- rule: ask_비립종_what_05 응답
+  steps:
+    - intent: ask_비립종_what_05
+    - action: utter_ask_비립종_what_05
+
+- rule: ask_비립종_what_06 응답
+  steps:
+    - intent: ask_비립종_what_06
+    - action: utter_ask_비립종_what_06
+
+- rule: ask_비립종_what_07 응답
+  steps:
+    - intent: ask_비립종_what_07
+    - action: utter_ask_비립종_what_07
+
+- rule: ask_비립종_what_08 응답
+  steps:
+    - intent: ask_비립종_what_08
+    - action: utter_ask_비립종_what_08
+
+- rule: ask_비립종_what_09 응답
+  steps:
+    - intent: ask_비립종_what_09
+    - action: utter_ask_비립종_what_09
+
+- rule: ask_비립종_why_01 응답
+  steps:
+    - intent: ask_비립종_why_01
+    - action: utter_ask_비립종_why_01
+
+- rule: ask_비립종_why_02 응답
+  steps:
+    - intent: ask_비립종_why_02
+    - action: utter_ask_비립종_why_02
+
+- rule: ask_비립종_why_03 응답
+  steps:
+    - intent: ask_비립종_why_03
+    - action: utter_ask_비립종_why_03
+
+- rule: ask_비립종_why_04 응답
+  steps:
+    - intent: ask_비립종_why_04
+    - action: utter_ask_비립종_why_04
+
+- rule: ask_비립종_why_05 응답
+  steps:
+    - intent: ask_비립종_why_05
+    - action: utter_ask_비립종_why_05
+
+- rule: ask_비립종_why_06 응답
+  steps:
+    - intent: ask_비립종_why_06
+    - action: utter_ask_비립종_why_06
+
+- rule: ask_비립종_why_07 응답
+  steps:
+    - intent: ask_비립종_why_07
+    - action: utter_ask_비립종_why_07
+
+- rule: ask_비립종_why_08 응답
+  steps:
+    - intent: ask_비립종_why_08
+    - action: utter_ask_비립종_why_08
+
+- rule: ask_비립종_why_09 응답
+  steps:
+    - intent: ask_비립종_why_09
+    - action: utter_ask_비립종_why_09
+
+- rule: ask_비립종_why_10 응답
+  steps:
+    - intent: ask_비립종_why_10
+    - action: utter_ask_비립종_why_10
+
+- rule: ask_비립종_why_11 응답
+  steps:
+    - intent: ask_비립종_why_11
+    - action: utter_ask_비립종_why_11
+
+- rule: ask_비립종_how_01 응답
+  steps:
+    - intent: ask_비립종_how_01
+    - action: utter_ask_비립종_how_01
+
+- rule: ask_비립종_how_02 응답
+  steps:
+    - intent: ask_비립종_how_02
+    - action: utter_ask_비립종_how_02
+
+- rule: ask_비립종_how_03 응답
+  steps:
+    - intent: ask_비립종_how_03
+    - action: utter_ask_비립종_how_03
+
+- rule: ask_비립종_how_04 응답
+  steps:
+    - intent: ask_비립종_how_04
+    - action: utter_ask_비립종_how_04
+
+- rule: ask_비립종_how_05 응답
+  steps:
+    - intent: ask_비립종_how_05
+    - action: utter_ask_비립종_how_05
+
+- rule: ask_비립종_how_06 응답
+  steps:
+    - intent: ask_비립종_how_06
+    - action: utter_ask_비립종_how_06
+
+- rule: ask_비립종_how_07 응답
+  steps:
+    - intent: ask_비립종_how_07
+    - action: utter_ask_비립종_how_07
+
+- rule: ask_비립종_how_08 응답
+  steps:
+    - intent: ask_비립종_how_08
+    - action: utter_ask_비립종_how_08
+
+- rule: ask_비립종_how_09 응답
+  steps:
+    - intent: ask_비립종_how_09
+    - action: utter_ask_비립종_how_09
+
+- rule: ask_비립종_how_10 응답
+  steps:
+    - intent: ask_비립종_how_10
+    - action: utter_ask_비립종_how_10
+
+- rule: ask_비립종_how_11 응답
+  steps:
+    - intent: ask_비립종_how_11
+    - action: utter_ask_비립종_how_11
+
+- rule: ask_비립종_cure_01 응답
+  steps:
+    - intent: ask_비립종_cure_01
+    - action: utter_ask_비립종_cure_01
+
+- rule: ask_비립종_cure_02 응답
+  steps:
+    - intent: ask_비립종_cure_02
+    - action: utter_ask_비립종_cure_02
+
+- rule: ask_비립종_cure_03 응답
+  steps:
+    - intent: ask_비립종_cure_03
+    - action: utter_ask_비립종_cure_03
+
+- rule: ask_비립종_cure_04 응답
+  steps:
+    - intent: ask_비립종_cure_04
+    - action: utter_ask_비립종_cure_04
+
+- rule: ask_비립종_cure_05 응답
+  steps:
+    - intent: ask_비립종_cure_05
+    - action: utter_ask_비립종_cure_05
+
+- rule: ask_비립종_cure_06 응답
+  steps:
+    - intent: ask_비립종_cure_06
+    - action: utter_ask_비립종_cure_06
+
+- rule: ask_비립종_cure_07 응답
+  steps:
+    - intent: ask_비립종_cure_07
+    - action: utter_ask_비립종_cure_07
+
+- rule: ask_비립종_cure_08 응답
+  steps:
+    - intent: ask_비립종_cure_08
+    - action: utter_ask_비립종_cure_08
+
+- rule: ask_비립종_cure_09 응답
+  steps:
+    - intent: ask_비립종_cure_09
+    - action: utter_ask_비립종_cure_09
+
+- rule: ask_비립종_cure_10 응답
+  steps:
+    - intent: ask_비립종_cure_10
+    - action: utter_ask_비립종_cure_10
+
+- rule: ask_비립종_cure_11 응답
+  steps:
+    - intent: ask_비립종_cure_11
+    - action: utter_ask_비립종_cure_11
+
+- rule: ask_비립종_cure_12 응답
+  steps:
+    - intent: ask_비립종_cure_12
+    - action: utter_ask_비립종_cure_12
+
+- rule: ask_비립종_cure_13 응답
+  steps:
+    - intent: ask_비립종_cure_13
+    - action: utter_ask_비립종_cure_13
+
+- rule: ask_비립종_cure_14 응답
+  steps:
+    - intent: ask_비립종_cure_14
+    - action: utter_ask_비립종_cure_14
+
+- rule: ask_비립종_cure_15 응답
+  steps:
+    - intent: ask_비립종_cure_15
+    - action: utter_ask_비립종_cure_15
+
+- rule: ask_비립종_cure_16 응답
+  steps:
+    - intent: ask_비립종_cure_16
+    - action: utter_ask_비립종_cure_16
+
+- rule: ask_비립종_cure_17 응답
+  steps:
+    - intent: ask_비립종_cure_17
+    - action: utter_ask_비립종_cure_17
+
+- rule: ask_비립종_cure_18 응답
+  steps:
+    - intent: ask_비립종_cure_18
+    - action: utter_ask_비립종_cure_18
+
+- rule: ask_사마귀_what_01 응답
+  steps:
+    - intent: ask_사마귀_what_01
+    - action: utter_ask_사마귀_what_01
+
+- rule: ask_사마귀_what_02 응답
+  steps:
+    - intent: ask_사마귀_what_02
+    - action: utter_ask_사마귀_what_02
+
+- rule: ask_사마귀_what_03 응답
+  steps:
+    - intent: ask_사마귀_what_03
+    - action: utter_ask_사마귀_what_03
+
+- rule: ask_사마귀_what_04 응답
+  steps:
+    - intent: ask_사마귀_what_04
+    - action: utter_ask_사마귀_what_04
+
+- rule: ask_사마귀_what_05 응답
+  steps:
+    - intent: ask_사마귀_what_05
+    - action: utter_ask_사마귀_what_05
+
+- rule: ask_사마귀_what_06 응답
+  steps:
+    - intent: ask_사마귀_what_06
+    - action: utter_ask_사마귀_what_06
+
+- rule: ask_사마귀_why_01 응답
+  steps:
+    - intent: ask_사마귀_why_01
+    - action: utter_ask_사마귀_why_01
+
+- rule: ask_사마귀_why_02 응답
+  steps:
+    - intent: ask_사마귀_why_02
+    - action: utter_ask_사마귀_why_02
+
+- rule: ask_사마귀_why_03 응답
+  steps:
+    - intent: ask_사마귀_why_03
+    - action: utter_ask_사마귀_why_03
+
+- rule: ask_사마귀_why_04 응답
+  steps:
+    - intent: ask_사마귀_why_04
+    - action: utter_ask_사마귀_why_04
+
+- rule: ask_사마귀_why_05 응답
+  steps:
+    - intent: ask_사마귀_why_05
+    - action: utter_ask_사마귀_why_05
+
+- rule: ask_사마귀_why_06 응답
+  steps:
+    - intent: ask_사마귀_why_06
+    - action: utter_ask_사마귀_why_06
+
+- rule: ask_사마귀_how_01 응답
+  steps:
+    - intent: ask_사마귀_how_01
+    - action: utter_ask_사마귀_how_01
+
+- rule: ask_사마귀_how_02 응답
+  steps:
+    - intent: ask_사마귀_how_02
+    - action: utter_ask_사마귀_how_02
+
+- rule: ask_사마귀_how_03 응답
+  steps:
+    - intent: ask_사마귀_how_03
+    - action: utter_ask_사마귀_how_03
+
+- rule: ask_사마귀_how_04 응답
+  steps:
+    - intent: ask_사마귀_how_04
+    - action: utter_ask_사마귀_how_04
+
+- rule: ask_사마귀_how_05 응답
+  steps:
+    - intent: ask_사마귀_how_05
+    - action: utter_ask_사마귀_how_05
+
+- rule: ask_사마귀_how_06 응답
+  steps:
+    - intent: ask_사마귀_how_06
+    - action: utter_ask_사마귀_how_06
+
+- rule: ask_사마귀_cure_01 응답
+  steps:
+    - intent: ask_사마귀_cure_01
+    - action: utter_ask_사마귀_cure_01
+
+- rule: ask_사마귀_cure_02 응답
+  steps:
+    - intent: ask_사마귀_cure_02
+    - action: utter_ask_사마귀_cure_02
+
+- rule: ask_사마귀_cure_03 응답
+  steps:
+    - intent: ask_사마귀_cure_03
+    - action: utter_ask_사마귀_cure_03
+
+- rule: ask_사마귀_cure_04 응답
+  steps:
+    - intent: ask_사마귀_cure_04
+    - action: utter_ask_사마귀_cure_04
+
+- rule: ask_사마귀_cure_05 응답
+  steps:
+    - intent: ask_사마귀_cure_05
+    - action: utter_ask_사마귀_cure_05
+
+- rule: ask_사마귀_cure_06 응답
+  steps:
+    - intent: ask_사마귀_cure_06
+    - action: utter_ask_사마귀_cure_06
+
+- rule: ask_사마귀_cure_07 응답
+  steps:
+    - intent: ask_사마귀_cure_07
+    - action: utter_ask_사마귀_cure_07
+
+- rule: ask_사마귀_cure_08 응답
+  steps:
+    - intent: ask_사마귀_cure_08
+    - action: utter_ask_사마귀_cure_08
+
+- rule: ask_사마귀_cure_09 응답
+  steps:
+    - intent: ask_사마귀_cure_09
+    - action: utter_ask_사마귀_cure_09
+
+- rule: ask_사마귀_cure_10 응답
+  steps:
+    - intent: ask_사마귀_cure_10
+    - action: utter_ask_사마귀_cure_10
+
+- rule: ask_사마귀_cure_11 응답
+  steps:
+    - intent: ask_사마귀_cure_11
+    - action: utter_ask_사마귀_cure_11
+
+- rule: ask_사마귀_cure_12 응답
+  steps:
+    - intent: ask_사마귀_cure_12
+    - action: utter_ask_사마귀_cure_12
+
+- rule: ask_사마귀_cure_13 응답
+  steps:
+    - intent: ask_사마귀_cure_13
+    - action: utter_ask_사마귀_cure_13
+
+- rule: ask_사마귀_cure_14 응답
+  steps:
+    - intent: ask_사마귀_cure_14
+    - action: utter_ask_사마귀_cure_14
+
+- rule: ask_사마귀_cure_15 응답
+  steps:
+    - intent: ask_사마귀_cure_15
+    - action: utter_ask_사마귀_cure_15
+
+- rule: ask_사마귀_cure_16 응답
+  steps:
+    - intent: ask_사마귀_cure_16
+    - action: utter_ask_사마귀_cure_16
+
+- rule: ask_사마귀_cure_17 응답
+  steps:
+    - intent: ask_사마귀_cure_17
+    - action: utter_ask_사마귀_cure_17
+
+- rule: ask_악성흑색종_what_01 응답
+  steps:
+    - intent: ask_악성흑색종_what_01
+    - action: utter_ask_악성흑색종_what_01
+
+- rule: ask_악성흑색종_what_02 응답
+  steps:
+    - intent: ask_악성흑색종_what_02
+    - action: utter_ask_악성흑색종_what_02
+
+- rule: ask_악성흑색종_what_03 응답
+  steps:
+    - intent: ask_악성흑색종_what_03
+    - action: utter_ask_악성흑색종_what_03
+
+- rule: ask_악성흑색종_what_04 응답
+  steps:
+    - intent: ask_악성흑색종_what_04
+    - action: utter_ask_악성흑색종_what_04
+
+- rule: ask_악성흑색종_what_05 응답
+  steps:
+    - intent: ask_악성흑색종_what_05
+    - action: utter_ask_악성흑색종_what_05
+
+- rule: ask_악성흑색종_what_06 응답
+  steps:
+    - intent: ask_악성흑색종_what_06
+    - action: utter_ask_악성흑색종_what_06
+
+- rule: ask_악성흑색종_what_07 응답
+  steps:
+    - intent: ask_악성흑색종_what_07
+    - action: utter_ask_악성흑색종_what_07
+
+- rule: ask_악성흑색종_what_08 응답
+  steps:
+    - intent: ask_악성흑색종_what_08
+    - action: utter_ask_악성흑색종_what_08
+
+- rule: ask_악성흑색종_what_09 응답
+  steps:
+    - intent: ask_악성흑색종_what_09
+    - action: utter_ask_악성흑색종_what_09
+
+- rule: ask_악성흑색종_what_10 응답
+  steps:
+    - intent: ask_악성흑색종_what_10
+    - action: utter_ask_악성흑색종_what_10
+
+- rule: ask_악성흑색종_what_11 응답
+  steps:
+    - intent: ask_악성흑색종_what_11
+    - action: utter_ask_악성흑색종_what_11
+
+- rule: ask_악성흑색종_what_12 응답
+  steps:
+    - intent: ask_악성흑색종_what_12
+    - action: utter_ask_악성흑색종_what_12
+
+- rule: ask_악성흑색종_what_13 응답
+  steps:
+    - intent: ask_악성흑색종_what_13
+    - action: utter_ask_악성흑색종_what_13
+
+- rule: ask_악성흑색종_what_14 응답
+  steps:
+    - intent: ask_악성흑색종_what_14
+    - action: utter_ask_악성흑색종_what_14
+
+- rule: ask_악성흑색종_what_15 응답
+  steps:
+    - intent: ask_악성흑색종_what_15
+    - action: utter_ask_악성흑색종_what_15
+
+- rule: ask_악성흑색종_what_16 응답
+  steps:
+    - intent: ask_악성흑색종_what_16
+    - action: utter_ask_악성흑색종_what_16
+
+- rule: ask_악성흑색종_what_17 응답
+  steps:
+    - intent: ask_악성흑색종_what_17
+    - action: utter_ask_악성흑색종_what_17
+
+- rule: ask_악성흑색종_what_18 응답
+  steps:
+    - intent: ask_악성흑색종_what_18
+    - action: utter_ask_악성흑색종_what_18
+
+- rule: ask_악성흑색종_how_01 응답
+  steps:
+    - intent: ask_악성흑색종_how_01
+    - action: utter_ask_악성흑색종_how_01
+
+- rule: ask_악성흑색종_how_02 응답
+  steps:
+    - intent: ask_악성흑색종_how_02
+    - action: utter_ask_악성흑색종_how_02
+
+- rule: ask_악성흑색종_how_03 응답
+  steps:
+    - intent: ask_악성흑색종_how_03
+    - action: utter_ask_악성흑색종_how_03
+
+- rule: ask_악성흑색종_how_04 응답
+  steps:
+    - intent: ask_악성흑색종_how_04
+    - action: utter_ask_악성흑색종_how_04
+
+- rule: ask_악성흑색종_how_05 응답
+  steps:
+    - intent: ask_악성흑색종_how_05
+    - action: utter_ask_악성흑색종_how_05
+
+- rule: ask_악성흑색종_how_06 응답
+  steps:
+    - intent: ask_악성흑색종_how_06
+    - action: utter_ask_악성흑색종_how_06
+
+- rule: ask_악성흑색종_how_07 응답
+  steps:
+    - intent: ask_악성흑색종_how_07
+    - action: utter_ask_악성흑색종_how_07
+
+- rule: ask_악성흑색종_how_08 응답
+  steps:
+    - intent: ask_악성흑색종_how_08
+    - action: utter_ask_악성흑색종_how_08
+
+- rule: ask_악성흑색종_how_09 응답
+  steps:
+    - intent: ask_악성흑색종_how_09
+    - action: utter_ask_악성흑색종_how_09
+
+- rule: ask_악성흑색종_how_10 응답
+  steps:
+    - intent: ask_악성흑색종_how_10
+    - action: utter_ask_악성흑색종_how_10
+
+- rule: ask_악성흑색종_how_11 응답
+  steps:
+    - intent: ask_악성흑색종_how_11
+    - action: utter_ask_악성흑색종_how_11
+
+- rule: ask_악성흑색종_how_12 응답
+  steps:
+    - intent: ask_악성흑색종_how_12
+    - action: utter_ask_악성흑색종_how_12
+
+- rule: ask_악성흑색종_how_13 응답
+  steps:
+    - intent: ask_악성흑색종_how_13
+    - action: utter_ask_악성흑색종_how_13
+
+- rule: ask_악성흑색종_how_14 응답
+  steps:
+    - intent: ask_악성흑색종_how_14
+    - action: utter_ask_악성흑색종_how_14
+
+- rule: ask_악성흑색종_how_15 응답
+  steps:
+    - intent: ask_악성흑색종_how_15
+    - action: utter_ask_악성흑색종_how_15
+
+- rule: ask_악성흑색종_how_16 응답
+  steps:
+    - intent: ask_악성흑색종_how_16
+    - action: utter_ask_악성흑색종_how_16
+
+- rule: ask_악성흑색종_how_17 응답
+  steps:
+    - intent: ask_악성흑색종_how_17
+    - action: utter_ask_악성흑색종_how_17
+
+- rule: ask_악성흑색종_cure_01 응답
+  steps:
+    - intent: ask_악성흑색종_cure_01
+    - action: utter_ask_악성흑색종_cure_01
+
+- rule: ask_악성흑색종_cure_02 응답
+  steps:
+    - intent: ask_악성흑색종_cure_02
+    - action: utter_ask_악성흑색종_cure_02
+
+- rule: ask_악성흑색종_cure_03 응답
+  steps:
+    - intent: ask_악성흑색종_cure_03
+    - action: utter_ask_악성흑색종_cure_03
+
+- rule: ask_악성흑색종_cure_04 응답
+  steps:
+    - intent: ask_악성흑색종_cure_04
+    - action: utter_ask_악성흑색종_cure_04
+
+- rule: ask_악성흑색종_cure_05 응답
+  steps:
+    - intent: ask_악성흑색종_cure_05
+    - action: utter_ask_악성흑색종_cure_05
+
+- rule: ask_악성흑색종_cure_06 응답
+  steps:
+    - intent: ask_악성흑색종_cure_06
+    - action: utter_ask_악성흑색종_cure_06
+
+- rule: ask_악성흑색종_cure_07 응답
+  steps:
+    - intent: ask_악성흑색종_cure_07
+    - action: utter_ask_악성흑색종_cure_07
+
+- rule: ask_악성흑색종_cure_08 응답
+  steps:
+    - intent: ask_악성흑색종_cure_08
+    - action: utter_ask_악성흑색종_cure_08
+
+- rule: ask_악성흑색종_cure_09 응답
+  steps:
+    - intent: ask_악성흑색종_cure_09
+    - action: utter_ask_악성흑색종_cure_09
+
+- rule: ask_악성흑색종_cure_10 응답
+  steps:
+    - intent: ask_악성흑색종_cure_10
+    - action: utter_ask_악성흑색종_cure_10
+
+- rule: ask_악성흑색종_cure_11 응답
+  steps:
+    - intent: ask_악성흑색종_cure_11
+    - action: utter_ask_악성흑색종_cure_11
+
+- rule: ask_악성흑색종_cure_12 응답
+  steps:
+    - intent: ask_악성흑색종_cure_12
+    - action: utter_ask_악성흑색종_cure_12
+
+- rule: ask_악성흑색종_cure_13 응답
+  steps:
+    - intent: ask_악성흑색종_cure_13
+    - action: utter_ask_악성흑색종_cure_13
+
+- rule: ask_악성흑색종_cure_14 응답
+  steps:
+    - intent: ask_악성흑색종_cure_14
+    - action: utter_ask_악성흑색종_cure_14
+
+- rule: ask_악성흑색종_cure_15 응답
+  steps:
+    - intent: ask_악성흑색종_cure_15
+    - action: utter_ask_악성흑색종_cure_15
+
+- rule: ask_악성흑색종_cure_16 응답
+  steps:
+    - intent: ask_악성흑색종_cure_16
+    - action: utter_ask_악성흑색종_cure_16
+
+- rule: ask_악성흑색종_why_01 응답
+  steps:
+    - intent: ask_악성흑색종_why_01
+    - action: utter_ask_악성흑색종_why_01
+
+- rule: ask_악성흑색종_why_02 응답
+  steps:
+    - intent: ask_악성흑색종_why_02
+    - action: utter_ask_악성흑색종_why_02
+
+- rule: ask_악성흑색종_why_03 응답
+  steps:
+    - intent: ask_악성흑색종_why_03
+    - action: utter_ask_악성흑색종_why_03
+
+- rule: ask_악성흑색종_why_04 응답
+  steps:
+    - intent: ask_악성흑색종_why_04
+    - action: utter_ask_악성흑색종_why_04
+
+- rule: ask_악성흑색종_why_05 응답
+  steps:
+    - intent: ask_악성흑색종_why_05
+    - action: utter_ask_악성흑색종_why_05
+
+- rule: ask_악성흑색종_why_06 응답
+  steps:
+    - intent: ask_악성흑색종_why_06
+    - action: utter_ask_악성흑색종_why_06
+
+- rule: ask_악성흑색종_why_07 응답
+  steps:
+    - intent: ask_악성흑색종_why_07
+    - action: utter_ask_악성흑색종_why_07
+
+- rule: ask_악성흑색종_why_08 응답
+  steps:
+    - intent: ask_악성흑색종_why_08
+    - action: utter_ask_악성흑색종_why_08
+
+- rule: ask_악성흑색종_why_09 응답
+  steps:
+    - intent: ask_악성흑색종_why_09
+    - action: utter_ask_악성흑색종_why_09
+
+- rule: ask_악성흑색종_why_10 응답
+  steps:
+    - intent: ask_악성흑색종_why_10
+    - action: utter_ask_악성흑색종_why_10
+
+- rule: ask_악성흑색종_why_11 응답
+  steps:
+    - intent: ask_악성흑색종_why_11
+    - action: utter_ask_악성흑색종_why_11
+
+- rule: ask_악성흑색종_why_12 응답
+  steps:
+    - intent: ask_악성흑색종_why_12
+    - action: utter_ask_악성흑색종_why_12
+
+- rule: ask_편평세포암_what_01 응답
+  steps:
+    - intent: ask_편평세포암_what_01
+    - action: utter_ask_편평세포암_what_01
+
+- rule: ask_편평세포암_what_02 응답
+  steps:
+    - intent: ask_편평세포암_what_02
+    - action: utter_ask_편평세포암_what_02
+
+- rule: ask_편평세포암_what_03 응답
+  steps:
+    - intent: ask_편평세포암_what_03
+    - action: utter_ask_편평세포암_what_03
+
+- rule: ask_편평세포암_what_04 응답
+  steps:
+    - intent: ask_편평세포암_what_04
+    - action: utter_ask_편평세포암_what_04
+
+- rule: ask_편평세포암_what_05 응답
+  steps:
+    - intent: ask_편평세포암_what_05
+    - action: utter_ask_편평세포암_what_05
+
+- rule: ask_편평세포암_what_06 응답
+  steps:
+    - intent: ask_편평세포암_what_06
+    - action: utter_ask_편평세포암_what_06
+
+- rule: ask_편평세포암_what_07 응답
+  steps:
+    - intent: ask_편평세포암_what_07
+    - action: utter_ask_편평세포암_what_07
+
+- rule: ask_편평세포암_what_08 응답
+  steps:
+    - intent: ask_편평세포암_what_08
+    - action: utter_ask_편평세포암_what_08
+
+- rule: ask_편평세포암_what_09 응답
+  steps:
+    - intent: ask_편평세포암_what_09
+    - action: utter_ask_편평세포암_what_09
+
+- rule: ask_편평세포암_what_10 응답
+  steps:
+    - intent: ask_편평세포암_what_10
+    - action: utter_ask_편평세포암_what_10
+
+- rule: ask_편평세포암_what_11 응답
+  steps:
+    - intent: ask_편평세포암_what_11
+    - action: utter_ask_편평세포암_what_11
+
+- rule: ask_편평세포암_what_12 응답
+  steps:
+    - intent: ask_편평세포암_what_12
+    - action: utter_ask_편평세포암_what_12
+
+- rule: ask_편평세포암_what_14 응답
+  steps:
+    - intent: ask_편평세포암_what_14
+    - action: utter_ask_편평세포암_what_14
+
+- rule: ask_편평세포암_what_15 응답
+  steps:
+    - intent: ask_편평세포암_what_15
+    - action: utter_ask_편평세포암_what_15
+
+- rule: ask_편평세포암_what_16 응답
+  steps:
+    - intent: ask_편평세포암_what_16
+    - action: utter_ask_편평세포암_what_16
+
+- rule: ask_편평세포암_what_17 응답
+  steps:
+    - intent: ask_편평세포암_what_17
+    - action: utter_ask_편평세포암_what_17
+
+- rule: ask_편평세포암_what_18 응답
+  steps:
+    - intent: ask_편평세포암_what_18
+    - action: utter_ask_편평세포암_what_18
+
+- rule: ask_편평세포암_what_19 응답
+  steps:
+    - intent: ask_편평세포암_what_19
+    - action: utter_ask_편평세포암_what_19
+
+- rule: ask_편평세포암_what_20 응답
+  steps:
+    - intent: ask_편평세포암_what_20
+    - action: utter_ask_편평세포암_what_20
+
+- rule: ask_편평세포암_what_21 응답
+  steps:
+    - intent: ask_편평세포암_what_21
+    - action: utter_ask_편평세포암_what_21
+
+- rule: ask_편평세포암_what_22 응답
+  steps:
+    - intent: ask_편평세포암_what_22
+    - action: utter_ask_편평세포암_what_22
+
+- rule: ask_편평세포암_what_23 응답
+  steps:
+    - intent: ask_편평세포암_what_23
+    - action: utter_ask_편평세포암_what_23
+
+- rule: ask_편평세포암_what_24 응답
+  steps:
+    - intent: ask_편평세포암_what_24
+    - action: utter_ask_편평세포암_what_24
+
+- rule: ask_편평세포암_what_25 응답
+  steps:
+    - intent: ask_편평세포암_what_25
+    - action: utter_ask_편평세포암_what_25
+
+- rule: ask_편평세포암_what_26 응답
+  steps:
+    - intent: ask_편평세포암_what_26
+    - action: utter_ask_편평세포암_what_26
+
+- rule: ask_편평세포암_why_01 응답
+  steps:
+    - intent: ask_편평세포암_why_01
+    - action: utter_ask_편평세포암_why_01
+
+- rule: ask_편평세포암_why_02 응답
+  steps:
+    - intent: ask_편평세포암_why_02
+    - action: utter_ask_편평세포암_why_02
+
+- rule: ask_편평세포암_why_03 응답
+  steps:
+    - intent: ask_편평세포암_why_03
+    - action: utter_ask_편평세포암_why_03
+
+- rule: ask_편평세포암_why_04 응답
+  steps:
+    - intent: ask_편평세포암_why_04
+    - action: utter_ask_편평세포암_why_04
+
+- rule: ask_편평세포암_why_05 응답
+  steps:
+    - intent: ask_편평세포암_why_05
+    - action: utter_ask_편평세포암_why_05
+
+- rule: ask_편평세포암_why_06 응답
+  steps:
+    - intent: ask_편평세포암_why_06
+    - action: utter_ask_편평세포암_why_06
+
+- rule: ask_편평세포암_why_07 응답
+  steps:
+    - intent: ask_편평세포암_why_07
+    - action: utter_ask_편평세포암_why_07
+
+- rule: ask_편평세포암_why_08 응답
+  steps:
+    - intent: ask_편평세포암_why_08
+    - action: utter_ask_편평세포암_why_08
+- rule: ask_편평세포암_why_09 응답
+  steps:
+    - intent: ask_편평세포암_why_09
+    - action: utter_ask_편평세포암_why_09
+
+- rule: ask_편평세포암_why_10 응답
+  steps:
+    - intent: ask_편평세포암_why_10
+    - action: utter_ask_편평세포암_why_10
+
+- rule: ask_편평세포암_why_11 응답
+  steps:
+    - intent: ask_편평세포암_why_11
+    - action: utter_ask_편평세포암_why_11
+
+- rule: ask_편평세포암_why_12 응답
+  steps:
+    - intent: ask_편평세포암_why_12
+    - action: utter_ask_편평세포암_why_12
+
+- rule: ask_편평세포암_why_13 응답
+  steps:
+    - intent: ask_편평세포암_why_13
+    - action: utter_ask_편평세포암_why_13
+
+- rule: ask_편평세포암_why_14 응답
+  steps:
+    - intent: ask_편평세포암_why_14
+    - action: utter_ask_편평세포암_why_14
+
+- rule: ask_편평세포암_why_15 응답
+  steps:
+    - intent: ask_편평세포암_why_15
+    - action: utter_ask_편평세포암_why_15
+
+- rule: ask_편평세포암_why_16 응답
+  steps:
+    - intent: ask_편평세포암_why_16
+    - action: utter_ask_편평세포암_why_16
+
+- rule: ask_편평세포암_how_01 응답
+  steps:
+    - intent: ask_편평세포암_how_01
+    - action: utter_ask_편평세포암_how_01
+
+- rule: ask_편평세포암_how_02 응답
+  steps:
+    - intent: ask_편평세포암_how_02
+    - action: utter_ask_편평세포암_how_02
+
+- rule: ask_편평세포암_how_03 응답
+  steps:
+    - intent: ask_편평세포암_how_03
+    - action: utter_ask_편평세포암_how_03
+
+- rule: ask_편평세포암_how_04 응답
+  steps:
+    - intent: ask_편평세포암_how_04
+    - action: utter_ask_편평세포암_how_04
+
+- rule: ask_편평세포암_how_05 응답
+  steps:
+    - intent: ask_편평세포암_how_05
+    - action: utter_ask_편평세포암_how_05
+
+- rule: ask_편평세포암_how_06 응답
+  steps:
+    - intent: ask_편평세포암_how_06
+    - action: utter_ask_편평세포암_how_06
+
+- rule: ask_편평세포암_how_07 응답
+  steps:
+    - intent: ask_편평세포암_how_07
+    - action: utter_ask_편평세포암_how_07
+
+- rule: ask_편평세포암_how_08 응답
+  steps:
+    - intent: ask_편평세포암_how_08
+    - action: utter_ask_편평세포암_how_08
+
+- rule: ask_편평세포암_how_09 응답
+  steps:
+    - intent: ask_편평세포암_how_09
+    - action: utter_ask_편평세포암_how_09
+
+- rule: ask_편평세포암_how_10 응답
+  steps:
+    - intent: ask_편평세포암_how_10
+    - action: utter_ask_편평세포암_how_10
+
+- rule: ask_편평세포암_how_11 응답
+  steps:
+    - intent: ask_편평세포암_how_11
+    - action: utter_ask_편평세포암_how_11
+
+- rule: ask_편평세포암_how_12 응답
+  steps:
+    - intent: ask_편평세포암_how_12
+    - action: utter_ask_편평세포암_how_12
+
+- rule: ask_편평세포암_how_13 응답
+  steps:
+    - intent: ask_편평세포암_how_13
+    - action: utter_ask_편평세포암_how_13
+
+- rule: ask_편평세포암_how_14 응답
+  steps:
+    - intent: ask_편평세포암_how_14
+    - action: utter_ask_편평세포암_how_14
+
+- rule: ask_편평세포암_how_15 응답
+  steps:
+    - intent: ask_편평세포암_how_15
+    - action: utter_ask_편평세포암_how_15
+
+- rule: ask_편평세포암_how_16 응답
+  steps:
+    - intent: ask_편평세포암_how_16
+    - action: utter_ask_편평세포암_how_16
+
+- rule: ask_편평세포암_how_17 응답
+  steps:
+    - intent: ask_편평세포암_how_17
+    - action: utter_ask_편평세포암_how_17
+
+- rule: ask_편평세포암_cure_01 응답
+  steps:
+    - intent: ask_편평세포암_cure_01
+    - action: utter_ask_편평세포암_cure_01
+
+- rule: ask_편평세포암_cure_02 응답
+  steps:
+    - intent: ask_편평세포암_cure_02
+    - action: utter_ask_편평세포암_cure_02
+
+- rule: ask_편평세포암_cure_03 응답
+  steps:
+    - intent: ask_편평세포암_cure_03
+    - action: utter_ask_편평세포암_cure_03
+
+- rule: ask_편평세포암_cure_04 응답
+  steps:
+    - intent: ask_편평세포암_cure_04
+    - action: utter_ask_편평세포암_cure_04
+
+- rule: ask_편평세포암_cure_06 응답
+  steps:
+    - intent: ask_편평세포암_cure_06
+    - action: utter_ask_편평세포암_cure_06
+
+- rule: ask_편평세포암_cure_07 응답
+  steps:
+    - intent: ask_편평세포암_cure_07
+    - action: utter_ask_편평세포암_cure_07
+
+- rule: ask_편평세포암_cure_08 응답
+  steps:
+    - intent: ask_편평세포암_cure_08
+    - action: utter_ask_편평세포암_cure_08
+
+- rule: ask_편평세포암_cure_09 응답
+  steps:
+    - intent: ask_편평세포암_cure_09
+    - action: utter_ask_편평세포암_cure_09
+
+- rule: ask_편평세포암_cure_10 응답
+  steps:
+    - intent: ask_편평세포암_cure_10
+    - action: utter_ask_편평세포암_cure_10
+
+- rule: ask_편평세포암_cure_11 응답
+  steps:
+    - intent: ask_편평세포암_cure_11
+    - action: utter_ask_편평세포암_cure_11
+
+- rule: ask_편평세포암_cure_12 응답
+  steps:
+    - intent: ask_편평세포암_cure_12
+    - action: utter_ask_편평세포암_cure_12
+
+- rule: ask_편평세포암_cure_13 응답
+  steps:
+    - intent: ask_편평세포암_cure_13
+    - action: utter_ask_편평세포암_cure_13
+
+- rule: ask_편평세포암_cure_14 응답
+  steps:
+    - intent: ask_편평세포암_cure_14
+    - action: utter_ask_편평세포암_cure_14
+
+- rule: ask_편평세포암_cure_15 응답
+  steps:
+    - intent: ask_편평세포암_cure_15
+    - action: utter_ask_편평세포암_cure_15
+
+- rule: ask_편평세포암_cure_16 응답
+  steps:
+    - intent: ask_편평세포암_cure_16
+    - action: utter_ask_편평세포암_cure_16
+
+- rule: ask_편평세포암_cure_17 응답
+  steps:
+    - intent: ask_편평세포암_cure_17
+    - action: utter_ask_편평세포암_cure_17
+
+- rule: ask_편평세포암_cure_18 응답
+  steps:
+    - intent: ask_편평세포암_cure_18
+    - action: utter_ask_편평세포암_cure_18
+
+- rule: ask_편평세포암_cure_19 응답
+  steps:
+    - intent: ask_편평세포암_cure_19
+    - action: utter_ask_편평세포암_cure_19
+
+- rule: ask_편평세포암_cure_20 응답
+  steps:
+    - intent: ask_편평세포암_cure_20
+    - action: utter_ask_편평세포암_cure_20
+
+- rule: ask_혈관종_what_01 응답
+  steps:
+    - intent: ask_혈관종_what_01
+    - action: utter_ask_혈관종_what_01
+
+- rule: ask_혈관종_what_02 응답
+  steps:
+    - intent: ask_혈관종_what_02
+    - action: utter_ask_혈관종_what_02
+
+- rule: ask_혈관종_what_03 응답
+  steps:
+    - intent: ask_혈관종_what_03
+    - action: utter_ask_혈관종_what_03
+
+- rule: ask_혈관종_what_04 응답
+  steps:
+    - intent: ask_혈관종_what_04
+    - action: utter_ask_혈관종_what_04
+
+- rule: ask_혈관종_what_05 응답
+  steps:
+    - intent: ask_혈관종_what_05
+    - action: utter_ask_혈관종_what_05
+
+- rule: ask_혈관종_what_06 응답
+  steps:
+    - intent: ask_혈관종_what_06
+    - action: utter_ask_혈관종_what_06
+
+- rule: ask_혈관종_what_08 응답
+  steps:
+    - intent: ask_혈관종_what_08
+    - action: utter_ask_혈관종_what_08
+
+- rule: ask_혈관종_what_09 응답
+  steps:
+    - intent: ask_혈관종_what_09
+    - action: utter_ask_혈관종_what_09
+
+- rule: ask_혈관종_what_10 응답
+  steps:
+    - intent: ask_혈관종_what_10
+    - action: utter_ask_혈관종_what_10
+
+- rule: ask_혈관종_what_11 응답
+  steps:
+    - intent: ask_혈관종_what_11
+    - action: utter_ask_혈관종_what_11
+
+- rule: ask_혈관종_what_12 응답
+  steps:
+    - intent: ask_혈관종_what_12
+    - action: utter_ask_혈관종_what_12
+
+- rule: ask_혈관종_what_13 응답
+  steps:
+    - intent: ask_혈관종_what_13
+    - action: utter_ask_혈관종_what_13
+
+- rule: ask_혈관종_what_14 응답
+  steps:
+    - intent: ask_혈관종_what_14
+    - action: utter_ask_혈관종_what_14
+
+- rule: ask_혈관종_what_15 응답
+  steps:
+    - intent: ask_혈관종_what_15
+    - action: utter_ask_혈관종_what_15
+
+- rule: ask_혈관종_what_16 응답
+  steps:
+    - intent: ask_혈관종_what_16
+    - action: utter_ask_혈관종_what_16
+
+- rule: ask_혈관종_what_17 응답
+  steps:
+    - intent: ask_혈관종_what_17
+    - action: utter_ask_혈관종_what_17
+
+- rule: ask_혈관종_what_18 응답
+  steps:
+    - intent: ask_혈관종_what_18
+    - action: utter_ask_혈관종_what_18
+
+- rule: ask_혈관종_what_19 응답
+  steps:
+    - intent: ask_혈관종_what_19
+    - action: utter_ask_혈관종_what_19
+
+- rule: ask_혈관종_what_20 응답
+  steps:
+    - intent: ask_혈관종_what_20
+    - action: utter_ask_혈관종_what_20
+
+- rule: ask_혈관종_why_01 응답
+  steps:
+    - intent: ask_혈관종_why_01
+    - action: utter_ask_혈관종_why_01
+
+- rule: ask_혈관종_why_02 응답
+  steps:
+    - intent: ask_혈관종_why_02
+    - action: utter_ask_혈관종_why_02
+
+- rule: ask_혈관종_why_03 응답
+  steps:
+    - intent: ask_혈관종_why_03
+    - action: utter_ask_혈관종_why_03
+
+- rule: ask_혈관종_why_04 응답
+  steps:
+    - intent: ask_혈관종_why_04
+    - action: utter_ask_혈관종_why_04
+
+- rule: ask_혈관종_how_01 응답
+  steps:
+    - intent: ask_혈관종_how_01
+    - action: utter_ask_혈관종_how_01
+
+- rule: ask_혈관종_how_02 응답
+  steps:
+    - intent: ask_혈관종_how_02
+    - action: utter_ask_혈관종_how_02
+
+- rule: ask_혈관종_how_03 응답
+  steps:
+    - intent: ask_혈관종_how_03
+    - action: utter_ask_혈관종_how_03
+
+- rule: ask_혈관종_how_04 응답
+  steps:
+    - intent: ask_혈관종_how_04
+    - action: utter_ask_혈관종_how_04
+
+- rule: ask_혈관종_how_05 응답
+  steps:
+    - intent: ask_혈관종_how_05
+    - action: utter_ask_혈관종_how_05
+
+- rule: ask_혈관종_how_06 응답
+  steps:
+    - intent: ask_혈관종_how_06
+    - action: utter_ask_혈관종_how_06
+
+- rule: ask_혈관종_how_07 응답
+  steps:
+    - intent: ask_혈관종_how_07
+    - action: utter_ask_혈관종_how_07
+
+- rule: ask_혈관종_how_08 응답
+  steps:
+    - intent: ask_혈관종_how_08
+    - action: utter_ask_혈관종_how_08
+
+- rule: ask_혈관종_how_09 응답
+  steps:
+    - intent: ask_혈관종_how_09
+    - action: utter_ask_혈관종_how_09
+
+- rule: ask_혈관종_how_10 응답
+  steps:
+    - intent: ask_혈관종_how_10
+    - action: utter_ask_혈관종_how_10
+
+- rule: ask_혈관종_how_11 응답
+  steps:
+    - intent: ask_혈관종_how_11
+    - action: utter_ask_혈관종_how_11
+
+- rule: ask_혈관종_how_12 응답
+  steps:
+    - intent: ask_혈관종_how_12
+    - action: utter_ask_혈관종_how_12
+
+- rule: ask_혈관종_how_13 응답
+  steps:
+    - intent: ask_혈관종_how_13
+    - action: utter_ask_혈관종_how_13
+
+- rule: ask_혈관종_how_14 응답
+  steps:
+    - intent: ask_혈관종_how_14
+    - action: utter_ask_혈관종_how_14
+
+- rule: ask_혈관종_how_15 응답
+  steps:
+    - intent: ask_혈관종_how_15
+    - action: utter_ask_혈관종_how_15
+
+- rule: ask_혈관종_how_16 응답
+  steps:
+    - intent: ask_혈관종_how_16
+    - action: utter_ask_혈관종_how_16
+
+- rule: ask_혈관종_how_17 응답
+  steps:
+    - intent: ask_혈관종_how_17
+    - action: utter_ask_혈관종_how_17
+
+- rule: ask_혈관종_how_18 응답
+  steps:
+    - intent: ask_혈관종_how_18
+    - action: utter_ask_혈관종_how_18
+
+- rule: ask_혈관종_how_19 응답
+  steps:
+    - intent: ask_혈관종_how_19
+    - action: utter_ask_혈관종_how_19
+
+- rule: ask_혈관종_how_20 응답
+  steps:
+    - intent: ask_혈관종_how_20
+    - action: utter_ask_혈관종_how_20
+
+- rule: ask_혈관종_cure_01 응답
+  steps:
+    - intent: ask_혈관종_cure_01
+    - action: utter_ask_혈관종_cure_01
+
+- rule: ask_혈관종_cure_02 응답
+  steps:
+    - intent: ask_혈관종_cure_02
+    - action: utter_ask_혈관종_cure_02
+
+- rule: ask_혈관종_cure_03 응답
+  steps:
+    - intent: ask_혈관종_cure_03
+    - action: utter_ask_혈관종_cure_03
+
+- rule: ask_혈관종_cure_05 응답
+  steps:
+    - intent: ask_혈관종_cure_05
+    - action: utter_ask_혈관종_cure_05
+
+- rule: ask_혈관종_cure_06 응답
+  steps:
+    - intent: ask_혈관종_cure_06
+    - action: utter_ask_혈관종_cure_06
+
+- rule: ask_혈관종_cure_07 응답
+  steps:
+    - intent: ask_혈관종_cure_07
+    - action: utter_ask_혈관종_cure_07
+
+- rule: ask_혈관종_cure_08 응답
+  steps:
+    - intent: ask_혈관종_cure_08
+    - action: utter_ask_혈관종_cure_08
+
+- rule: ask_혈관종_cure_09 응답
+  steps:
+    - intent: ask_혈관종_cure_09
+    - action: utter_ask_혈관종_cure_09
+
+- rule: ask_혈관종_cure_10 응답
+  steps:
+    - intent: ask_혈관종_cure_10
+    - action: utter_ask_혈관종_cure_10
+
+- rule: ask_혈관종_cure_11 응답
+  steps:
+    - intent: ask_혈관종_cure_11
+    - action: utter_ask_혈관종_cure_11
+
+- rule: ask_혈관종_cure_12 응답
+  steps:
+    - intent: ask_혈관종_cure_12
+    - action: utter_ask_혈관종_cure_12
+
+- rule: ask_혈관종_cure_13 응답
+  steps:
+    - intent: ask_혈관종_cure_13
+    - action: utter_ask_혈관종_cure_13
+
+- rule: ask_혈관종_cure_14 응답
+  steps:
+    - intent: ask_혈관종_cure_14
+    - action: utter_ask_혈관종_cure_14
+
+- rule: ask_혈관종_cure_15 응답
+  steps:
+    - intent: ask_혈관종_cure_15
+    - action: utter_ask_혈관종_cure_15
+
+- rule: ask_혈관종_cure_16 응답
+  steps:
+    - intent: ask_혈관종_cure_16
+    - action: utter_ask_혈관종_cure_16
+
+- rule: ask_혈관종_cure_17 응답
+  steps:
+    - intent: ask_혈관종_cure_17
+    - action: utter_ask_혈관종_cure_17
+
+- rule: ask_혈관종_cure_18 응답
+  steps:
+    - intent: ask_혈관종_cure_18
+    - action: utter_ask_혈관종_cure_18
+
+- rule: ask_혈관종_cure_19 응답
+  steps:
+    - intent: ask_혈관종_cure_19
+    - action: utter_ask_혈관종_cure_19
+
+- rule: ask_혈관종_cure_20 응답
+  steps:
+    - intent: ask_혈관종_cure_20
+    - action: utter_ask_혈관종_cure_20
