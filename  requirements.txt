@@ -1,4 +1,0 @@
-fastapi
-uvicorn
-requests
-rasa==3.6.10
